@@ -85,7 +85,7 @@ if __name__ == "__main__":
     root.left = TreeNode(5, TreeNode(2), TreeNode(7))
     root.right = TreeNode(15, None, TreeNode(20))
 
-    print("--- Результаты обходов ---")
+    print("Результаты обходов")
     print(f"Прямой:      {preorder(root)}")
     print(f"Симметричный: {inorder(root)}")
     print(f"Обратный:   {postorder(root)}")
